@@ -1,7 +1,7 @@
 export const exerciseOptions = {
     method: 'GET',
 	headers: {
-		'x-rapidapi-key': 'e1a7f35187msh167fbf683a69eefp1a52a3jsnb58efce0aac8',
+		'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
 		'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
 	}
 };
@@ -9,6 +9,14 @@ export const exerciseOptions = {
 export const fetchData = async (url, options) =>{
     const response = await fetch(url,options);
     const data = await response.json();
-
     return data;
 }
+
+export const youtubeOptions = {
+    method: 'GET',
+    headers: {
+      'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
+      'x-rapidapi-host': 'youtube-search-and-download.p.rapidapi.com'
+    }
+  };
+  
