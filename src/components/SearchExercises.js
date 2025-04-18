@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {Box, TextField, Button, Stack, Typography} from '@mui/material';
 import { exerciseOptions,fetchData } from '../utils/fetchData';
 import HorizontalScrollbar from './HorizontalScrollbar';
+import {data} from '../sample.js';
 
 const SearchExercises = ({setExercises, bodyPart, setBodyPart}) => {
     const [search, setSearch] = useState('');
@@ -9,19 +10,19 @@ const SearchExercises = ({setExercises, bodyPart, setBodyPart}) => {
 
     useEffect(() => {
       const fetchExercisesData = async () => {
-          const bodyPartsData = await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList',exerciseOptions);
-
+          // const bodyPartsData = await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList',exerciseOptions);
+          let bodyPartsData = ['cardio', 'strength', 'endurance', 'flexibility', 'balance'];
           setBodyParts(['all', ...bodyPartsData]);
       }
         fetchExercisesData();
-    }, [])
+    }, [bodyPart]);
     
 
     const handleSearch = async()=> {
         if(search){
-          const exercisesData = await fetchData('https://exercisedb.p.rapidapi.com/exercises',exerciseOptions);
-
-          console.log(exercisesData);
+          // const exercisesData = await fetchData('https://exercisedb.p.rapidapi.com/exercises',exerciseOptions);
+          let exercisesData = data;
+          // console.log(exercisesData);
 
           const searchedExercises = exercisesData.filter(
             (exercise) => exercise.name.toLowerCase().includes(search) ||
@@ -74,7 +75,7 @@ const SearchExercises = ({setExercises, bodyPart, setBodyPart}) => {
       </Button>
       </Box>
       <Box sx={{position:'relative', width:'100%', p:'20px'}}>
-          <HorizontalScrollbar data={bodyParts} bodyPart={bodyPart} setBodyPart = {setBodyPart} />
+          <HorizontalScrollbar data={bodyParts} bodyPart={bodyPart} setBodyPart = {setBodyPart} isBodyParts/>
       </Box>
     </Stack>
   )

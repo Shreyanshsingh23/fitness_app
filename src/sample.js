@@ -183,3 +183,77 @@ export const data = [
     ]
   };
   
+
+  export const sampleYoutubeData = {
+    "contents": [
+      {
+        "video": {
+          "channelId": "UCsRM0YB_dabtEPGPTKo-gcw",
+          "channelName": "Adele",
+          "description": "Directed by Xavier Dolan, @XDolan Follow Adele on: Facebook - https://www.facebook.com/Adele Twitter ...",
+          "lengthText": "6:07",
+          "publishedTimeText": "5 years ago",
+          "thumbnails": [
+            {
+              "height": 202,
+              "url": "https://i.ytimg.com/vi/YQHsXMglC9A/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAHnhWEMlSYbwVzv7HE1YaH8_8RrQ",
+              "width": 360
+            },
+            {
+              "height": 404,
+              "url": "https://i.ytimg.com/vi/YQHsXMglC9A/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCdLcY7Ni9L3AP5ZQ7RDGNaIo6H3g",
+              "width": 720
+            }
+          ],
+          "title": "Adele - Hello",
+          "videoId": "YQHsXMglC9A",
+          "viewCountText": "2,895,266,516 views"
+        }
+      },
+      {
+        "video": {
+          "channelId": "UCM3iG_kXUM_9HHVIDI7vEtg",
+          "channelName": "lionelrichie",
+          "description": "Music video by Lionel Richie performing ",
+          "lengthText": "5:27",
+          "publishedTimeText": "10 months ago",
+          "thumbnails": [
+            {
+              "height": 202,
+              "url": "https://i.ytimg.com/vi/mHONNcZbwDY/hq720.jpg?sqp=-oaymwEjCOgCEMoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCQ0hGFDaq3Y0XrrKUKMXjeZOq8Xg",
+              "width": 360
+            },
+            {
+              "height": 404,
+              "url": "https://i.ytimg.com/vi/mHONNcZbwDY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLClfqZQqqf4y5Ha1FsD2UhgtOIzkQ",
+              "width": 720
+            }
+          ],
+          "title": "Lionel Richie - Hello (Official Music Video)",
+          "videoId": "mHONNcZbwDY",
+          "viewCountText": "30,207,207 views"
+        }
+      },
+      {
+        "video": {
+          "channelId": "UCtSzfeO5IDD0byUhV1d7mdA",
+          "channelName": "Aqua Lyrics",
+          "description": "Adele - ",
+          "lengthText": "4:57",
+          "publishedTimeText": "8 months ago",
+          "thumbnails": [
+            {
+              "height": 270,
+              "url": "https://i.ytimg.com/vi/be12BC5pQLE/hqdefault.jpg?sqp=-oaymwEjCOADEI4CSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBeAQi9vYd-vjySNBperTFGJxkg6w",
+              "width": 480
+            }
+          ],
+          "title": "Adele - Hello (Lyrics)",
+          "videoId": "be12BC5pQLE",
+          "viewCountText": "2,536,416 views"
+        }
+      }
+    ],
+    "estimatedResults": "164284739",
+    "next": "EogDEgVoZWxsbxr-AlNCU0NBUXRaVVVoeldFMW5iRU01UVlJQkMyMUlUMDVPWTFwaWQwUlpnZ0VMWW1VeE1rSkROWEJSVEVXQ0FRdG1ZWHBOVTBOYVp5MXRkNElCQzE5RUxVVTVPV1F4WWt4SmdnRUxZV0ZKYW5NNFN6TnZXVy1DQVExU1JGbFJTSE5ZVFdkc1F6bEJnZ0VMTXpkRk9WZHpSRzFFWldlQ0FRdG1UakZEZVhJd1drczVUWUlCQzFVelFWTnFNVXcyWDNOWmdnRUxhMHMwTWt4YWNVOHdkMEdDQVF0SlRqQlBZMVYyUjJJMk1JSUJDMkp1VmxWSVYwTjVibWxuZ2dFTFoyZG9SRkpLVm5oR2VGV0NBUXMzUjFkcWFHZGtjVzlLTklJQkMxRnJaV1ZvVVRoRVgxWk5nZ0VMWld4a1pXRkpRWFpmZDBXQ0FRczRla1JUYVd0RGFEazJZNElCQzNSV2JHTkxjRE5pVjBnNGdnRUxRM3BQTTJGSlpUQlNjSE0lM0QYgeDoGCILc2VhcmNoLWZlZWQ%3D"
+  }
