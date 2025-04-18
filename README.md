@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# 🏋️‍♂️ FitZone — Your Ultimate Fitness Companion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**FitZone** is a sleek, interactive fitness web app built using **React** and **Webpack**, designed to help users find personalized workout routines with ease. Whether you're training at home or hitting the gym, FitZone delivers a curated fitness experience right at your fingertips.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔥 Why FitZone?
 
-### `npm start`
+Because finding the right exercises shouldn't feel like a workout.  
+FitZone helps you:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Discover exercises based on **target muscles**  
+✅ Explore exercises by **equipment type**  
+✅ Learn **how to perform** exercises with **GIF demos**  
+✅ Watch **YouTube tutorials** for in-depth guidance  
+✅ Dive into **similar exercises** to keep your routine fresh  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🖼️ What It Looks Like
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> Imagine a clean, fast, modern gym assistant in your browser.
 
-### `npm run build`
+### 🧱 Home Page
+- Search bar to find exercises by name or muscle group
+- Scrollable library of exercise cards with demo GIFs
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🧠 Exercise Details Page
+Click on any exercise card and you get:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **📋 Exercise Info** — Target muscle, equipment, body part  
+2. **🎥 YouTube Section** — Tutorials fetched from YouTube API  
+3. **💪 Similar Muscle Exercises** — Alternatives for same target muscle  
+4. **🛠️ Similar Equipment Exercises** — Variations with same equipment  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Tech | Description |
+|------|-------------|
+| **React.js** | Component-based frontend |
+| **Webpack** | Bundling & performance optimization |
+| **YouTube Data API** | To fetch related tutorial videos |
+| **ExerciseDB API** | For exercise details & GIFs |
+| **CSS / Styled Components** | For modern UI and clean responsiveness |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/fitzone.git
+   cd fitzone
