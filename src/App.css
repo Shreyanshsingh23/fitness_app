@@ -136,6 +136,10 @@ body {
   
   }
   
+  .nav-link:hover{
+    border-bottom: 3px solid #FF2625 !important;
+  }
+  
   @media screen and (max-width:400px) {
     .exercise-card {
       width: 280px;

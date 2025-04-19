@@ -1,9 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {Stack} from '@mui/material';
+// import { useParams } from 'react-router-dom';
 import Logo from '../assets/images/Logo.png';
 
 const Navbar = () => {
+  
   return (
     <Stack 
     direction="row"
@@ -23,10 +25,11 @@ const Navbar = () => {
        fontSize="24px"
        alignItems="flex-end" 
       >
-        <Link to = "/" style={{textDecoration:"none",
+        <Link className='nav-link' to = "/" style={{textDecoration:"none",
            color: '#3A1212',
-           borderBottom: '3px solid #FF2625'}}>Home</Link>
-        <a href="#exercises" style={{textDecoration: 'none', color: '#3A1212'}}>Exercises</a>
+           }}>Home</Link>
+        <Link to="/exercises" className='nav-link' style={{textDecoration: 'none', color: '#3A1212'}}>Exercises</Link>
+        <Link to="/feedback" className='nav-link' style={{textDecoration: 'none', color: '#3A1212'}}>Contact</Link>
       </Stack>
   </Stack>
   )

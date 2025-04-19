@@ -16,6 +16,9 @@ const Footer = () => {
         <Typography variant="h5" pb="40px" mt="20px">
           Made with ❤️ by <span style={{color: '#FF2625', fontSize: '22px'}}>Shreyansh</span>
         </Typography>
+        <Typography variant="h7" pb="40px" mt="20px">
+          © 2025 Shreyansh. All rights reserved.
+        </Typography>
       </Stack>
     </Box>
   )
