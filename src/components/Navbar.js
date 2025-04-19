@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {Stack} from '@mui/material';
-// import { useParams } from 'react-router-dom';
 import Logo from '../assets/images/Logo.png';
 
 const Navbar = () => {
@@ -28,7 +27,7 @@ const Navbar = () => {
         <Link className='nav-link' to = "/" style={{textDecoration:"none",
            color: '#3A1212',
            }}>Home</Link>
-        <Link to="/exercises" className='nav-link' style={{textDecoration: 'none', color: '#3A1212'}}>Exercises</Link>
+        <a href="/#exercises" className='nav-link' style={{textDecoration: 'none', color: '#3A1212'}}>Exercises</a>
         <Link to="/feedback" className='nav-link' style={{textDecoration: 'none', color: '#3A1212'}}>Contact</Link>
       </Stack>
   </Stack>
